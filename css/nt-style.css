@@ -1,0 +1,81 @@
+#nt-live-posts {
+	color: #ddd;
+	background-color: #1e1f23;
+}
+
+#nt-live-posts a {
+	color: #ccc;
+}
+
+#nt-live-posts tbody tr:hover a {
+	color: #eee;
+}
+
+#nt-live-posts .hndle {
+	color: #ddd;
+	background-color: #2a2b31;
+	border-bottom: none;
+}
+
+.nt-status-pill {
+	text-align: center;
+	text-transform: capitalize;
+	color: #fff;
+}
+
+.nt-status-pill span {
+	display: block;
+	padding: .25rem;
+}
+
+.nt-status-publish {
+	background-color: #38553d;
+}
+
+.nt-status-publish td:first-child {
+	border-left: 3px solid #5cb85c;
+}
+
+.nt-status-draft {
+	background-color: #332524;
+}
+
+.nt-status-draft td:first-child {
+	border-left: 3px solid #f25d2e;
+}
+
+.nt-status-pending-review {
+	background-color: #1d2c33;
+}
+
+.nt-status-pending-review td:first-child {
+	border-left: 3px solid #15a0bf;
+}
+
+.nt-status-pill.nt-status-publish {
+	background-color: #5cb85c;
+}
+
+.nt-status-pill.nt-status-draft {
+	background-color: #f25d2e;
+}
+
+.nt-status-pill.nt-status-pending-review {
+	background-color: #15a0bf;
+}
+
+.fetched-posts table {
+	width: 100%;
+}
+
+.fetched-posts th {
+	text-align: center;
+}
+
+.fetched-posts td {
+	padding: 0 .5rem;
+}
+
+.fetched-posts td:nth-child( 3 ) {
+	text-align: center;
+}
